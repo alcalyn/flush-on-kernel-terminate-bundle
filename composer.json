@@ -1,0 +1,19 @@
+{
+    "name":         "alcalyn/flush-on-kernel-terminate",
+    "license":      "MIT",
+    "type":         "symfony-bundle",
+    "description":  "Just add a listener to automatically flush non-flushed entities after the response has been sent.",
+    "keywords":     ["symfony2", "optimization"],
+    "authors": [
+        {
+            "name": "Julien Maulny",
+            "email": "doubjulien@hotmail.fr"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "2.x"
+    },
+    "autoload": {
+        "psr-0": { "Alcalyn\\FlushOnKernelTerminateBundle": "" }
+    }
+}
