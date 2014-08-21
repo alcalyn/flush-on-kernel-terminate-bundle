@@ -1,5 +1,5 @@
 {
-    "name":         "alcalyn/flush-on-kernel-terminate",
+    "name":         "alcalyn/flush-on-kernel-terminate-bundle",
     "license":      "MIT",
     "type":         "symfony-bundle",
     "description":  "Just add a listener to automatically flush non-flushed entities after the response has been sent.",
