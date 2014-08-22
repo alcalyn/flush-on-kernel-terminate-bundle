@@ -1,6 +1,6 @@
 services:
     alcalyn_flush_on_kernel_terminate.listener:
-        class: Alcalyn\FlushOnKernelTerminate\EventListener\KernelTerminateListener
+        class: Alcalyn\FlushOnKernelTerminateBundle\EventListener\KernelTerminateListener
         arguments: [@doctrine.orm.entity_manager]
         tags:
             - { name: kernel.event_listener, event: kernel.terminate, method: onKernelTerminate }
