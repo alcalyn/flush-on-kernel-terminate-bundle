@@ -1,6 +1,6 @@
 <?php
 
-namespace Alcalyn\FlushOnKernelTerminate\EventListener\EventListener;
+namespace Alcalyn\FlushOnKernelTerminate\EventListener;
 
 use Doctrine\ORM\EntityManager;
 
