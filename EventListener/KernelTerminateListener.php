@@ -24,7 +24,9 @@ class KernelTerminateListener
      */
     public function onKernelTerminate()
     {
-        $this->em->flush();
-        // That was not so hard... And you need a bundle to do that! Poor guy...
+        if ($this->em->isOpen()) {
+            $this->em->flush();
+            // That was not so hard... And you need a bundle to do that! Poor guy...
+        }
     }
 }
